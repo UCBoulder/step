@@ -1,0 +1,9 @@
+{
+  "name": "oit/step",
+  "type": "drupal-custom-module",
+  "description": "Adds a step button to CKeditor.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/UCBoulder/step",
+  "minimum-stability": "dev"
+}
