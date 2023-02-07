@@ -1,0 +1,15 @@
+# This adds the plugin JavaScript to the page.
+# cSpell:ignore step
+
+step:
+  js:
+    js/build/step.js: { preprocess: false, minified: true }
+  dependencies:
+    - core/ckeditor5
+
+# Loaded in the text format configuration form to provide styling for the icon
+# used in toolbar config.
+admin.step:
+  css:
+    theme:
+      css/step.admin.css: { }

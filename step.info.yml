@@ -1,8 +1,7 @@
-name: CKEditor Tutorial Step
+name: Step
 type: module
-description: Adds a step button to CKeditor.
-core: 8.x
-core_version_requirement: ^8 || ^9
-package: CKEditor
+description: "CKEditor tutorial step button"
+package: CKEditor 5
+core_version_requirement: ^9 || ^10
 dependencies:
-  - ckeditor
+  - drupal:ckeditor5
