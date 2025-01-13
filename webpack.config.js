@@ -17,16 +17,16 @@ getDirectories('./js/ckeditor5_plugins').forEach((dir) => {
   const bc = {
     mode: 'production',
     optimization: {
-      minimize: true,
+      minimize: TRUE,
       minimizer: [
         new TerserPlugin({
           terserOptions: {
             format: {
-              comments: false,
+              comments: FALSE,
             },
           },
           test: /\.js(\?.*)?$/i,
-          extractComments: false,
+          extractComments: FALSE,
         }),
       ],
       moduleIds: 'named',

@@ -19,7 +19,7 @@ export default class StepUI extends Plugin {
       buttonView.set({
         label: editor.t('Step'),
         icon,
-        tooltip: true,
+        tooltip: TRUE,
       });
 
       // Bind the state of the button to the command.
